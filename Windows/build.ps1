@@ -47,7 +47,9 @@ if (-not $DSPOnly) {
     Copy-Item -LiteralPath (Join-Path $clapDir 'clap-libs/clap/LICENSE') -Destination (Join-Path $destination 'CLAP-SDK-LICENSE.txt') -Force
     Copy-Item -LiteralPath (Join-Path $clapDir 'clap-libs/clap-helpers/LICENSE') -Destination (Join-Path $destination 'CLAP-HELPERS-LICENSE.txt') -Force
     Copy-Item -LiteralPath (Join-Path $juceDir 'modules/juce_audio_processors_headless/format_types/VST3_SDK/LICENSE.txt') -Destination (Join-Path $destination 'VST3-SDK-LICENSE.txt') -Force
+    Copy-Item -LiteralPath (Join-Path $juceDir 'modules/juce_audio_devices/native/asio/LICENSE.txt') -Destination (Join-Path $destination 'ASIO-SDK-LICENSE.txt') -Force
     Copy-Item -LiteralPath (Join-Path $PSScriptRoot 'README.md') -Destination $destination -Force
+    Copy-Item -LiteralPath (Join-Path $PSScriptRoot '../LICENSE') -Destination (Join-Path $destination 'LICENSE.txt') -Force
     Copy-Item -LiteralPath (Join-Path $PSScriptRoot 'MIDI_CC_REFERENCE.md') -Destination $destination -Force
     Copy-Item -LiteralPath (Join-Path $PSScriptRoot 'DSP_RETRIGGER_NOTES.md') -Destination $destination -Force
     Copy-Item -LiteralPath (Join-Path $PSScriptRoot 'RECORDING.md') -Destination $destination -Force

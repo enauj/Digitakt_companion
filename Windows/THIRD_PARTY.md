@@ -1,5 +1,10 @@
 # Third-party dependencies
 
+The original Companion source and documentation are licensed under MIT; see
+`../LICENSE` (copied into Windows packages as `LICENSE.txt`). The licenses below
+apply separately to third-party code. The project MIT license does not replace
+dependency terms or make compiled JUCE/ASIO-containing binaries MIT-only.
+
 - **JUCE 8.0.16-security**, commit
   `ea77444750de45e036e0279bb0291144bf8e3688`.
   Source: https://github.com/juce-framework/JUCE
@@ -30,4 +35,4 @@
   `modules/juce_audio_processors_headless/format_types/VST3_SDK`, MIT licence.
   Used for VST3 instrument export and hosting. VST2 is not included.
 
-This directory does not assign a new licence to pre-existing project source.
+No third-party dependency is relicensed by the project's MIT license.

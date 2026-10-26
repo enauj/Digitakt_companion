@@ -1,5 +1,10 @@
 # DTX Companion for Windows — preview 0.9
 
+Original Companion code and documentation: MIT, copyright 2026 Elias Naujoks.
+See `LICENSE.txt` in the package, or `../LICENSE` in the source. JUCE, ASIO and
+other dependencies retain their own terms in THIRD_PARTY.md; the compiled app
+and plugins are not licensed solely under MIT.
+
 Open the packaged `Digitakt Companion.exe`. This release is in `dist/0.9.0/`
 when the previous executable is running. Close the current Companion before
 launching the new version (the app allows one instance). The standalone app and VST3/CLAP instrument

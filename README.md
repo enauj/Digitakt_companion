@@ -4,6 +4,11 @@ A native Windows x64 standalone synth and VST3/CLAP instrument, controlled from
 Digitakt MIDI or a DAW. This folder contains the Windows project and its native
 C audio engine.
 
+The original project source and documentation are licensed under the
+[MIT License](LICENSE), copyright 2026 Elias Naujoks. Third-party dependencies
+retain their own licenses; see [dependency notices](Windows/THIRD_PARTY.md).
+The MIT license does not relicense JUCE, ASIO or the combined compiled binaries.
+
 ## Run
 
 Close the running Companion, then open `Windows/dist/0.9.0/Digitakt Companion.exe`. The complete 0.9 package is stored beside the running older build.
