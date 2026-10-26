@@ -1,0 +1,17 @@
+# Generated builds, packaged apps, downloaded dependencies and previews
+/Windows/build*/
+/Windows/dist/
+/Windows/third_party/
+/Windows/previews/
+
+# Local recordings
+/Recordings/
+
+# Visual Studio user settings
+.vs/
+*.user
+*.suo
+
+# Local environment files
+.env
+.env.*
